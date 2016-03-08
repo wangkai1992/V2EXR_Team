@@ -17,7 +17,6 @@
 ### Webpack
 - clone 到本地后先在项目目录下运行 `npm install`；
 - 在项目目录下下运行 `npm run webpack` 执行 webpack 任务；
-- 在项目目录下运行 `npm run server`启动测试服务器(需要全局安装_http-server_: `npm install -g http-server`)；
-- 
+- 在项目目录下运行 `npm run server` 启动测试服务器(需要全局安装**http-server**: `npm install -g http-server`)；
 
 _有关`Webpack`的更多信息，可以参考[官方文档及教程](http://webpack.github.io/docs/tutorials/getting-started/)_

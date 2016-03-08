@@ -14,4 +14,10 @@
 - 静态资源路径规则: 请将自己的静态资源放在 `/src/$name/js` 及 `/src/$name/style` 下。
 - Webpack 打包规则： `Webpack`会把每个人所有的静态资源打包到 `/build/$name.entry.js`。  Html页面 不需要引用除 `/build/$name.entry.js` 以外的任何外部文件。
 
-_有关`Webpack`的相关用法， 可以参考[官方文档及教程](http://webpack.github.io/docs/tutorials/getting-started/)_
+### Webpack
+- clone 到本地后先在项目目录下运行 `npm install`；
+- 在项目目录下下运行 `npm run webpack` 执行 webpack 任务；
+- 在项目目录下运行 `npm run server`启动测试服务器(需要全局安装_http-server_: `npm install -g http-server`)；
+- 
+
+_有关`Webpack`的更多信息，可以参考[官方文档及教程](http://webpack.github.io/docs/tutorials/getting-started/)_

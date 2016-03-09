@@ -11,8 +11,8 @@
 ### 热身规则
 - 临摹过程中，原则上不能对原页面的代码进行复制粘贴式的抄袭，而应该根据页面的视觉效果倒推出合理的 DOM 结构和 CSS 样式规则。
 - 页面命名规则： 请将自己的 `$name.html` 页面放在`/pages`目录下。 如廖凯恩的临摹页面应该放在 `/page/liaokaien.html`。
-- 静态资源路径规则: 请将自己的静态资源放在 `/src/$name/js` 及 `/src/$name/style` 下。
-- Webpack 打包规则： `Webpack`会把每个人所有的静态资源打包到 `/build/$name.entry.js`。  HTML页面 不需要引用除 `/build/$name.entry.js` 以外的任何外部文件。
+- 静态资源路径规则: 请将自己的静态资源放在 `/src/$name/js` 及 `/src/$name/style` 下。另： 默认`/src/$name/main.js`为 Webpack 打包的入口文件， 
+- Webpack 打包规则： `Webpack`会把每个人所有的静态资源打包到 `/build/$name.entry.js`。 HTML页面 不需要引用除 `/build/$name.entry.js` 以外的任何外部文件。
 
 ### Webpack
 - clone 到本地后先在项目目录下运行 `npm install`；

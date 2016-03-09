@@ -1,7 +1,7 @@
 //引入 scss/css 文件
 require('./style/main.scss')
 
-
+// 引入需要的 JavaScript 模块
 var util = require('./js/util');
 var $ = require('jquery');
 

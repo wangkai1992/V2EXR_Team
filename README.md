@@ -2,6 +2,7 @@
 
 ### 团队成员
 - 廖凯恩 [@liaokaien](https://github.com/liaokaien)
+- 王 凯  [@wangkai1992](http://github.com/wangkai1992)
 
 ### 热身目的
 五位团队成员分别对 [http://www.greensplashdesign.com/team/](http://www.greensplashdesign.com/team/)的页面布局及样式进行临摹，相互对比学习，以达到相互了解技术水平，取长补短，磨合团队等目标。 
